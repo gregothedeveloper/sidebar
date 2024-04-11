@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sidebar nav</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <input type="checkbox" id="click" />
+      <label for="click">
+        <i class="menu-btn bx bx-menu"></i>
+        <i class="close-btn bx bxs-x-circle"></i>
+      </label>
+
+      <div class="sidenav">
+        <div class="logo">
+          <h2>Bretech Solutions</h2>
+        </div>
+        <div class="searchbar">
+          <form action="">
+            <i class="bx bx-search"></i>
+            <input type="text" placeholder="Search..." />
+          </form>
+        </div>
+        <div class="menu-txt">
+          <p>menu</p>
+        </div>
+        <div class="icon-items">
+          <ul>
+            <li class="active">
+              <i class="bx bxs-home"></i>
+              <a href="#">home</a>
+            </li>
+            <li>
+              <i class="bx bxs-user"></i>
+              <a href="#">about</a>
+            </li>
+            <li>
+              <i class="bx bxs-server"></i>
+              <a href="#">service</a>
+            </li>
+            <li>
+              <i class="bx bxs-help-circle"></i>
+              <a href="#">Help</a>
+            </li>
+            <li>
+              <i class="bx bxl-blogger"></i>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <i class="bx bxs-group"></i>
+              <a href="#">Groups</a>
+            </li>
+            <li>
+              <i class="bx bx-log-out"></i>
+              <a href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
